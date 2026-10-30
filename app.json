@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Pokéguesser",
+    "slug": "setsense",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.setsense.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "Pokéguesser",
+      "shortName": "Pokéguesser",
+      "themeColor": "#1F63E0",
+      "backgroundColor": "#FFF4C9"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-image",
+      "expo-localization"
+    ],
+    "splash": {
+      "backgroundColor": "#1F63E0"
+    }
+  }
+}
