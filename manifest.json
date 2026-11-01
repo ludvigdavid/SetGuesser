@@ -1,19 +1,19 @@
 {
   "name": "SetGuesser",
   "short_name": "SetGuesser",
-  "start_url": "/setguesser/",
-  "scope": "/setguesser/",
+  "start_url": "/SetGuesser/",
+  "scope": "/SetGuesser/",
   "display": "standalone",
   "background_color": "#FDC701",
   "theme_color": "#1F63E0",
   "icons": [
     {
-      "src": "/setguesser/icon-192.png",
+      "src": "/SetGuesser/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/setguesser/icon-512.png",
+      "src": "/SetGuesser/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
