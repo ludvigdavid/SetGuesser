@@ -26,7 +26,7 @@
 <div class="box">
 <h2>Not an official Pokémon product</h2>
 <p>cardtrainer.io is an unofficial, free fan project made by one person. It is not affiliated with, endorsed, sponsored or approved by Nintendo, The Pokémon Company, Creatures Inc. or GAME FREAK. Pokémon, the Pokémon card game, card names and card images are trademarks and © of their respective owners.</p>
-<p>Card data and images are loaded from the <a href="https://pokemontcg.io">Pokémon TCG API</a>. Prices are rough estimates taken from that API (Cardmarket / TCGplayer data) and can be wrong or out of date – don't use them to buy or sell.</p>
+<p>Card data comes from the open <a href="https://tcgdex.dev">TCGdex</a> card database and card pictures are hosted by TCGdex. Prices are rough estimates from <a href="https://www.cardmarket.com">Cardmarket</a>'s public price guide, updated once a day, and can be wrong or out of date – don't use them to buy or sell.</p>
 </div>
 
 <h2>The short version</h2>
@@ -45,8 +45,9 @@
 <h2>Who else is involved</h2>
 <p>Loading the game means your device talks directly to a few services. Like any website, they see your IP address and basic browser information when it connects:</p>
 <ul>
-  <li><b>GitHub Pages</b> – hosts the website.</li>
-  <li><b>Pokémon TCG API</b> (pokemontcg.io) – card lists, card images and prices.</li>
+  <li><b>GitHub Pages</b> – hosts the website and the daily card lists.</li>
+  <li><b>TCGdex</b> (assets.tcgdex.net) – card pictures.</li>
+  <li><b>Pokémon TCG API</b> (pokemontcg.io) – only as a backup for card lists if ours can't be reached, until that service closes in March 2027.</li>
   <li><b>Supabase</b> – logins and the cloud copy of your progress (only if you sign in).</li>
   <li><b>Google</b> – the "Sign in with Google" step (only if you sign in).</li>
   <li><b>GoatCounter</b> – simple visitor statistics (how many people visit and which game modes are used). It uses no cookies and is built not to collect personal data.</li>
@@ -74,7 +75,7 @@
 <div class="box">
 <h2>Ingen officiell Pokémonprodukt</h2>
 <p>cardtrainer.io är ett inofficiellt, gratis fanprojekt gjort av en person. Det har ingen koppling till och stöds inte av Nintendo, The Pokémon Company, Creatures Inc. eller GAME FREAK. Pokémon, kortspelet, kortnamn och kortbilder är varumärken och © respektive ägare.</p>
-<p>Kortdata och bilder hämtas från <a href="https://pokemontcg.io">Pokémon TCG API</a>. Priserna är ungefärliga uppskattningar därifrån och kan vara fel eller gamla – använd dem inte för köp eller försäljning.</p>
+<p>Kortdata kommer från den öppna kortdatabasen <a href="https://tcgdex.dev">TCGdex</a>, och kortbilderna ligger hos TCGdex. Priserna är ungefärliga uppskattningar från <a href="https://www.cardmarket.com">Cardmarkets</a> öppna prisguide, uppdateras en gång om dagen och kan vara fel eller gamla – använd dem inte för köp eller försäljning.</p>
 </div>
 <h2>Kort sagt</h2>
 <ul>
@@ -82,7 +83,7 @@
   <li>Loggar du in med Google sparas en kopia av dina framsteg i molnet så att de följer med mellan enheter. Supabase (vår databastjänst) får då din e-postadress, ditt namn och en länk till din profilbild från Google.</li>
   <li>Topplistan visar bara ditt smeknamn (eller "Guest") och dina poäng – aldrig namn eller e-post.</li>
   <li>Inga annonser, ingen försäljning av data, inga spårningskakor. Besöksstatistiken (GoatCounter) använder inga kakor.</li>
-  <li>Spelet hämtar kort och bilder från pokemontcg.io och ligger på GitHub Pages; de ser din IP-adress när du ansluter, som vid alla webbplatser.</li>
+  <li>Spelet och kortlistorna ligger på GitHub Pages och bilderna hos TCGdex; de ser din IP-adress när du ansluter, som vid alla webbplatser.</li>
   <li>Röstsvar (av som standard) använder webbläsarens eller telefonens taligenkänning, som beroende på enhet kan skicka ljudet till Apple eller Google. cardtrainer.io får bara de igenkända orden och sparar inga inspelningar.</li>
   <li>Radera kontot och molndatan när som helst: Inställningar → Konto → Radera konto. Data på enheten tar du bort med Nollställ framsteg eller genom att rensa webbplatsdata.</li>
   <li>Är du under 13 år, fråga en förälder innan du loggar in. Klagomål kan lämnas till <a href="https://www.imy.se">IMY</a>.</li>
