@@ -1,19 +1,19 @@
 {
-  "name": "SetGuesser",
-  "short_name": "SetGuesser",
-  "start_url": "/SetGuesser/",
-  "scope": "/SetGuesser/",
+  "name": "cardtrainer.io",
+  "short_name": "cardtrainer.io",
+  "start_url": "/cardtrainer.io/",
+  "scope": "/cardtrainer.io/",
   "display": "standalone",
   "background_color": "#FDC701",
   "theme_color": "#1F63E0",
   "icons": [
     {
-      "src": "/SetGuesser/icon-192.png",
+      "src": "/cardtrainer.io/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/SetGuesser/icon-512.png",
+      "src": "/cardtrainer.io/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
